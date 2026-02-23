@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* optionnel mais utile pour que le body prenne toute la hauteur */
+}
+
+.main-container {
+  background-color: #f4d04e;
+  min-height: 100vh; /* prend toute la hauteur de l'écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 8px 7px 0px 0px black;
+  width: 280px;
+  height: 400px;
+  padding: 15px;
+  margin: 100px;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+}
+.card__content--first h1 {
+  font-size: 12px;
+  background-color: #f4d04e;
+  max-width: 75px;
+  border-radius: 3px;
+  background-size: 100px;
+  padding: 4px;
+}
+
+.card__content--first p {
+  font-size: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+.card__content--second {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.card__content--second h2 {
+  cursor: pointer;
+  font-family: serif;
+  font-size: 20px;
+}
+.card__content--second h2:hover {
+  color: #f4d04e;
+}
+
+.card__content--second p {
+  font-size: 14px;
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+}
+
+.footer img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.author {
+  margin-top: 20px;
+}
